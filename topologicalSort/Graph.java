@@ -1,5 +1,5 @@
 import java.util.*; 
-
+@SuppressWarnings("unchecked")
 // Class to represent a directed graph
 class Graph{
     private int V; // No. of vertices 

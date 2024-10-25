@@ -29,11 +29,11 @@ class Graph{
                     queue.add(neighbor);
                 }
             }
-        }
-        // Printing shortest distance 
-        System.out.println("Vertex Distance from sourcee: ");
-        for(int i=0; i<V; i++){
-            System.out.println(i+"\t\t"+dist[i]);
+            // Printing shortest distance 
+            System.out.println("Vertex Distance from sourcee: ");
+            for(int i=0; i<V; i++){
+                System.out.println(i+"\t\t"+dist[i]);
+            }
         }
         public static void main(String[] args){
             Graph g=new Graph(6);
