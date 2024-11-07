@@ -1,12 +1,8 @@
 package primsAlgo;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
-
-import javax.naming.LinkLoopException;
-import javax.naming.LinkRef;
 
 class Edge{
     int destination; 
